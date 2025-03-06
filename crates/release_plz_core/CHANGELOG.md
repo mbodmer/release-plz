@@ -1,10 +1,27 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.33.2](https://github.com/release-plz/release-plz/compare/release_plz_core-v0.33.1...release_plz_core-v0.33.2) - 2025-03-04
+
+### Other
+
+- use git-cliff to expand the PR link ([#2103](https://github.com/release-plz/release-plz/pull/2103))
+
+## [0.33.1](https://github.com/release-plz/release-plz/compare/release_plz_core-v0.33.0...release_plz_core-v0.33.1) - 2025-03-01
+
+### Fixed
+
+- restore pr link expansion on non-conventional commits (#2102)
+
+### Other
+
+- add new line to changelog header (#2098)
 
 ## [0.33.0](https://github.com/release-plz/release-plz/compare/release_plz_core-v0.32.7...release_plz_core-v0.33.0) - 2025-02-25
 
