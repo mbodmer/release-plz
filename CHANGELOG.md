@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.130](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.129...release-plz-v0.3.130) - 2025-04-02
+
+### Fixed
+
+- ignore global `.gitignore` when copying to tmp dir ([#2149](https://github.com/release-plz/release-plz/pull/2149))
+
+### Other
+
+- update Cargo.lock dependencies
+
+## [0.3.129](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.128...release-plz-v0.3.129) - 2025-03-26
+
+### Fixed
+
+- update a package if dependency of its dependency was updated ([#2150](https://github.com/release-plz/release-plz/pull/2150))
+
+## [0.3.128](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.127...release-plz-v0.3.128) - 2025-03-22
+
+### Other
+
+- *(init)* explain how to create the PAT ([#2141](https://github.com/release-plz/release-plz/pull/2141))
+
+## [0.3.127](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.126...release-plz-v0.3.127) - 2025-03-17
+
+### Fixed
+
+- escape the curly braces in the template for init ([#2138](https://github.com/release-plz/release-plz/pull/2138))
+
+### Other
+
+- add more rust lints ([#2135](https://github.com/release-plz/release-plz/pull/2135))
+- explain why we use the `crates_index` crate ([#2134](https://github.com/release-plz/release-plz/pull/2134))
+
+## [0.3.126](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.125...release-plz-v0.3.126) - 2025-03-15
+
+### Fixed
+
+- deduplicate contributors ([#2110](https://github.com/release-plz/release-plz/pull/2110))
+
+### Other
+
+- don't run action in forks ([#2128](https://github.com/release-plz/release-plz/pull/2128))
+- remove verbose cargo logs ([#2129](https://github.com/release-plz/release-plz/pull/2129))
+
 ## [0.3.125](https://github.com/release-plz/release-plz/compare/release-plz-v0.3.124...release-plz-v0.3.125) - 2025-03-04
 
 ### Other
